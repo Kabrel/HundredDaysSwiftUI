@@ -13,6 +13,7 @@
 		D09D51B92A68640500A31031 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09D51B82A68640500A31031 /* Preview Assets.xcassets */; };
 		D09D51C12A68648C00A31031 /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D51C02A68648C00A31031 /* WeSplitView.swift */; };
 		D09D51C42A68664F00A31031 /* UnitConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D51C32A68664F00A31031 /* UnitConversionView.swift */; };
+		D09D51C92A6869EA00A31031 /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D51C82A6869EA00A31031 /* GuessFlagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D09D51B82A68640500A31031 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D09D51C02A68648C00A31031 /* WeSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
 		D09D51C32A68664F00A31031 /* UnitConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionView.swift; sourceTree = "<group>"; };
+		D09D51C82A6869EA00A31031 /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		D09D51B02A68640300A31031 /* HundredDaysSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D09D51C52A6869B900A31031 /* GuessTheFlag */,
 				D09D51C22A68663600A31031 /* UnitConversions */,
 				D09D51BF2A68641F00A31031 /* WeSplit */,
 				D09D51B12A68640300A31031 /* HundredDaysSwiftUIApp.swift */,
@@ -87,6 +90,14 @@
 				D09D51C32A68664F00A31031 /* UnitConversionView.swift */,
 			);
 			path = UnitConversions;
+			sourceTree = "<group>";
+		};
+		D09D51C52A6869B900A31031 /* GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+				D09D51C82A6869EA00A31031 /* GuessFlagView.swift */,
+			);
+			path = GuessTheFlag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				D09D51C42A68664F00A31031 /* UnitConversionView.swift in Sources */,
 				D09D51C12A68648C00A31031 /* WeSplitView.swift in Sources */,
 				D09D51B42A68640300A31031 /* ContentView.swift in Sources */,
+				D09D51C92A6869EA00A31031 /* GuessFlagView.swift in Sources */,
 				D09D51B22A68640300A31031 /* HundredDaysSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
