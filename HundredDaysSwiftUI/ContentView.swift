@@ -22,6 +22,12 @@ struct ContentView: View {
                 } label: {
                     Text("Unit Conversion App")
                 }
+                
+                NavigationLink {
+                    GuessFlagView()
+                } label: {
+                    Text("Guess the Flag")
+                }
             }
             .navigationTitle("100 days of SwiftUI")
         }
