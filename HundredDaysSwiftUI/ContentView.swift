@@ -28,6 +28,12 @@ struct ContentView: View {
                 } label: {
                     Text("Guess the Flag")
                 }
+                
+                NavigationLink {
+                    RockPaperScissorsView()
+                } label: {
+                    Text("Rock, Paper, Scissors")
+                }
             }
             .navigationTitle("100 days of SwiftUI")
         }
