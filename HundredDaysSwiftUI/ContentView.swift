@@ -34,6 +34,12 @@ struct ContentView: View {
                 } label: {
                     Text("Rock, Paper, Scissors")
                 }
+                
+                NavigationLink {
+                    BetterRestView()
+                } label: {
+                    Text("Better Rest")
+                }
             }
             .navigationTitle("100 days of SwiftUI")
         }
