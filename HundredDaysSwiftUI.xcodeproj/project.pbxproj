@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04C7A5D2A6F11FC0033DFCB /* WordScrambleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C7A5C2A6F11FC0033DFCB /* WordScrambleView.swift */; };
+		D04C7A5F2A719F1B0033DFCB /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = D04C7A5E2A719F1A0033DFCB /* start.txt */; };
 		D09D51B22A68640300A31031 /* HundredDaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D51B12A68640300A31031 /* HundredDaysSwiftUIApp.swift */; };
 		D09D51B42A68640300A31031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D51B32A68640300A31031 /* ContentView.swift */; };
 		D09D51B62A68640500A31031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09D51B52A68640500A31031 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04C7A5C2A6F11FC0033DFCB /* WordScrambleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleView.swift; sourceTree = "<group>"; };
+		D04C7A5E2A719F1A0033DFCB /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		D09D51AE2A68640300A31031 /* HundredDaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HundredDaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09D51B12A68640300A31031 /* HundredDaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredDaysSwiftUIApp.swift; sourceTree = "<group>"; };
 		D09D51B32A68640300A31031 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04C7A5B2A6F11D70033DFCB /* Word Scramble */ = {
+			isa = PBXGroup;
+			children = (
+				D04C7A5C2A6F11FC0033DFCB /* WordScrambleView.swift */,
+				D04C7A5E2A719F1A0033DFCB /* start.txt */,
+			);
+			path = "Word Scramble";
+			sourceTree = "<group>";
+		};
 		D09D51A52A68640300A31031 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +76,7 @@
 		D09D51B02A68640300A31031 /* HundredDaysSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D04C7A5B2A6F11D70033DFCB /* Word Scramble */,
 				D0DA145C2A6DBBEF004AC3BF /* BetterRest */,
 				D09D51CA2A6CF77200A31031 /* RockPaperScissors */,
 				D09D51C52A6869B900A31031 /* GuessTheFlag */,
@@ -184,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09D51B92A68640500A31031 /* Preview Assets.xcassets in Resources */,
+				D04C7A5F2A719F1B0033DFCB /* start.txt in Resources */,
 				D09D51B62A68640500A31031 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +215,7 @@
 				D09D51CC2A6CF79D00A31031 /* RockPaperScissorsView.swift in Sources */,
 				D09D51C12A68648C00A31031 /* WeSplitView.swift in Sources */,
 				D09D51B42A68640300A31031 /* ContentView.swift in Sources */,
+				D04C7A5D2A6F11FC0033DFCB /* WordScrambleView.swift in Sources */,
 				D0DA145E2A6DBC05004AC3BF /* BetterRestView.swift in Sources */,
 				D09D51C92A6869EA00A31031 /* GuessFlagView.swift in Sources */,
 				D09D51B22A68640300A31031 /* HundredDaysSwiftUIApp.swift in Sources */,
